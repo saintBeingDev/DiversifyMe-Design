@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 
-<body class="font-poppins ">
+<body class="font-poppins">
     <!-- Top div starts -->
     <div class="mx-auto container px-1 md:px-10 mb-8 min-h-screen">
 
@@ -79,7 +79,7 @@
                             Technology
                         </h6> -->
                         <h3
-                            class="md:text-3xl text-xl text-center md:text-left sm:px-2 text-white capitalize font-bold">
+                            class="md:text-4xl text-xl text-center md:text-left sm:px-2 text-white capitalize font-bold">
                             Gucci burst - a vintage video game
                             inspired webGL experience Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
                     </div>
@@ -139,122 +139,137 @@
 
         </div>
 
-        <!-- Actual post -->
-        <div class="w-50 bg-white h-full p-4 flex flex-col items-center justify-center">
+        <!-- post div -->
+        <div class="grid grid-cols-4 w-full">
 
-            <div class="w-full md:w-3/5 h-[250px] md:h-[500px] -mt-20 md:-mt-20 overflow-hidden z-10 rounded-2xl">
-                <img src="img/bloging3.jpg" class="w-full h-full  object-cover" alt="">
-            </div>
+            <div class="col-span-full md:col-span-3 w-full">
 
-            <div class="w-full md:w-3/5 m-2 md:m-5">
-                <!-- author div -->
-                <div class="md:hidden flex items-center justify-start gap-2 ml-4 my-2">
-                    <!-- Author and time -->
-                    <img src="img/profile.jpg" class="w-10 h-10 rounded-full align-middle object-cover" alt="profile">
-                    <div class="flex gap-2 items-center justify-center">
-                        <h3 class="md:text-sm font-bold text-md">Om Nikam </h3>
-                        <p class="text-sm text-gray-400"> 21 hours ago</p>
+                <!-- Actual post -->
+                <div class="w-full bg-white h-full p-4 flex flex-col items-center justify-center">
+
+                    <div
+                        class="w-full md:w-11/12 h-[250px] md:h-[500px] -mt-20 md:-mt-14 overflow-hidden z-10 rounded-2xl">
+                        <img src="img/bloging3.jpg" class="w-full h-full  object-cover" alt="">
                     </div>
-                    <p class="content-end ml-20 text-gray-600 text-sm">3 min read</p>
-                    <!-- End of Author and time -->
-                </div>
-                <!-- End of author div -->
-                <!-- Content -->
-                <p class="text-justify py-2 md:p-2 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Natus hic dolores, inventore ducimus rerum, numquam molestiae quisquam voluptates incidunt
-                    repellendus alias facere obcaecati vitae, qui amet consequuntur enim dignissimos aperiam? Ab
-                    perspiciatis eos doloremque expedita. In eaque molestias cum nobis?</p>
-                <p class="text-justify py-2 md:p-2 text-gray-600"> Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Natus hic dolores, inventore ducimus rerum, numquam molestiae quisquam voluptates incidunt
-                    repellendus alias facere obcaecati vitae, qui amet consequuntur enim dignissimos aperiam? Ab
-                    perspiciatis eos doloremque expedita. In eaque molestias cum nobis?</p>
-                <p class="text-justify py-2 md:p-2 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Natus hic dolores, inventore ducimus rerum, numquam molestiae quisquam voluptates incidunt
-                    repellendus alias facere obcaecati vitae, qui amet consequuntur enim dignissimos aperiam? Ab
-                    perspiciatis eos doloremque expedita. <b class="text-postBg">Lorem ipsum dolor sit amet.</b> In
-                    eaque molestias cum nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-                    rerum cum temporibus ut repellendus maiores sapiente porro doloribus nihil fugit laboriosam
-                    deleniti. Ipsum distinctio nesciunt voluptates at modi, quas earum doloribus fugiat placeat,
-                    adipisci optio maiores esse unde iste ipsam quia et eius repellendus ex id quidem? Sint,
-                    consectetur facere!</p>
-            </div>
 
-            <!-- Related articles  -->
-            <div class="h-fit w-full">
-                <h3 class="text-center text-2xl font-extrabold text-postBg">Related articles👇</h3>
-
-                <!-- Related post -->
-                <div
-                    class="grid grid-cols-2 gap-4 md:w-2/3 items-center justify-items-center justify-center h-full my-4 mx-auto">
-
-                    <!-- Single Blog div -->
-                    <div class="shadow-lg p-4 rounded-lg col-span-2 md:col-span-1">
-                        <div class="flex items-center justify-start gap-2">
+                    <div class="w-full md:w-11/12 m-2 md:m-5">
+                        <!-- author div -->
+                        <div class="md:hidden flex items-center justify-start gap-2 ml-4 my-2">
                             <!-- Author and time -->
-                            <img src="img/profile.jpg" class="w-7 h-7 rounded-full align-middle" alt="profile">
-                            <h3 class="text-sm">Om Nikam </h3>
-                            <p class="text-sm text-gray-400"> 21 hours ago</p>
+                            <img src="img/profile.jpg" class="w-10 h-10 rounded-full align-middle object-cover"
+                                alt="profile">
+                            <div class="flex gap-2 items-center justify-center">
+                                <h3 class="md:text-sm font-bold text-md">Om Nikam </h3>
+                                <p class="text-sm text-gray-400"> 21 hours ago</p>
+                            </div>
+                            <p class="content-end ml-20 text-gray-600 text-sm">3 min read</p>
                             <!-- End of Author and time -->
                         </div>
-                        <div class="flex w-full mb-4">
-                            <div class="flex flex-col gap-2">
-                                <h3 class="text-md font-semibold text-left">Lorem ipsum dolor sit amet consectetur,
-                                    adipisicing elit. Eaque, consectetur?</h3>
-                                <div class="flex gap-4 items-center">
-                                    <h5 class="rounded-lg px-2 py-1 bg-gray-200 text-xs">web dev</h5>
-                                    <h5 class="text-gray-400 text-sm">3 min read</h5>
-                                </div>
-                            </div>
-                            <div class="h-14 w-24 overflow-hidden">
-                                <img src="img/blogimg1.jpg" class="w-full h-full object-cover" alt="profile">
-                            </div>
-                        </div>
+                        <!-- End of author div -->
+                        <!-- Content -->
+                        <p class="text-justify py-2 md:p-2 text-gray-600">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Natus hic dolores, inventore ducimus rerum, numquam molestiae quisquam voluptates incidunt
+                            repellendus alias facere obcaecati vitae, qui amet consequuntur enim dignissimos aperiam? Ab
+                            perspiciatis eos doloremque expedita. In eaque molestias cum nobis?</p>
+                        <p class="text-justify py-2 md:p-2 text-gray-600"> Lorem, ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Natus hic dolores, inventore ducimus rerum, numquam molestiae quisquam voluptates incidunt
+                            repellendus alias facere obcaecati vitae, qui amet consequuntur enim dignissimos aperiam? Ab
+                            perspiciatis eos doloremque expedita. In eaque molestias cum nobis?</p>
+                        <p class="text-justify py-2 md:p-2 text-gray-600">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Natus hic dolores, inventore ducimus rerum, numquam molestiae quisquam voluptates incidunt
+                            repellendus alias facere obcaecati vitae, qui amet consequuntur enim dignissimos aperiam? Ab
+                            perspiciatis eos doloremque expedita. <b class="text-postBg">Lorem ipsum dolor sit amet.</b>
+                            In
+                            eaque molestias cum nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellat,
+                            rerum cum temporibus ut repellendus maiores sapiente porro doloribus nihil fugit laboriosam
+                            deleniti. Ipsum distinctio nesciunt voluptates at modi, quas earum doloribus fugiat placeat,
+                            adipisci optio maiores esse unde iste ipsam quia et eius repellendus ex id quidem? Sint,
+                            consectetur facere!</p>
                     </div>
 
-                    <!--End of Single Blog div -->
-                    <!-- Single Blog div -->
-                    <div class="shadow-lg p-4 rounded-lg col-span-2 md:col-span-1">
-                        <div class="flex items-center justify-start gap-2">
-                            <!-- Author and time -->
-                            <img src="img/om.jpeg" class="w-7 h-7 rounded-full align-middle object-fill" alt="profile">
-                            <h3 class="text-sm">Om Nikam </h3>
-                            <p class="text-sm text-gray-400"> 21 hours ago</p>
-                            <!-- End of Author and time -->
-                        </div>
-                        <div class="flex w-full mb-4">
-                            <div class="flex flex-col gap-2">
-                                <h3 class="text-md font-semibold text-left">Lorem ipsum dolor sit amet consectetur,
-                                    adipisicing elit. Eaque, consectetur?</h3>
-                                <div class="flex gap-4 items-center">
-                                    <h5 class="rounded-lg px-2 py-1 bg-gray-200 text-xs">web dev</h5>
-                                    <h5 class="text-gray-400 text-sm">3 min read</h5>
+                    <!-- Related articles  -->
+                    <div class="w-full mb-14 md:m-20">
+                        <h3 class="text-center text-2xl font-extrabold text-postBg">Related articles👇</h3>
+
+                        <!-- Related post -->
+                        <div
+                            class="grid grid-cols-2 gap-0 md:gap-4 md:w-full items-center justify-items-center justify-center h-full my-4 mx-auto">
+
+                            <!-- Single Blog div -->
+                            <div class="hover:shadow-lg transition-all p-4 rounded-lg col-span-2 md:col-span-1">
+                                <div class="flex items-center justify-start gap-2">
+                                    <!-- Author and time -->
+                                    <img src="img/profile.jpg" class="w-7 h-7 rounded-full align-middle" alt="profile">
+                                    <h3 class="text-sm">Om Nikam </h3>
+                                    <p class="text-sm text-gray-400"> 21 hours ago</p>
+                                    <!-- End of Author and time -->
+                                </div>
+                                <div class="flex w-full mb-4">
+                                    <div class="flex flex-col gap-2">
+                                        <h3 class="text-md font-semibold text-left">Lorem ipsum dolor sit amet
+                                            consectetur,
+                                            adipisicing elit. Eaque, consectetur?</h3>
+                                        <div class="flex gap-4 items-center">
+                                            <h5 class="rounded-lg px-2 py-1 bg-gray-200 text-xs">web dev</h5>
+                                            <h5 class="text-gray-400 text-sm">3 min read</h5>
+                                        </div>
+                                    </div>
+                                    <div class="h-14 w-24 overflow-hidden">
+                                        <img src="img/blogimg1.jpg" class="w-full h-full object-cover" alt="profile">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="h-14 w-24 overflow-hidden">
-                                <img src="img/blogging2.webp" class="w-full h-full object-cover" alt="profile">
+
+                            <!--End of Single Blog div -->
+                            <!-- Single Blog div -->
+                            <div class="hover:shadow-lg transition-all  p-4 rounded-lg col-span-2 md:col-span-1">
+                                <div class="flex items-center justify-start gap-2">
+                                    <!-- Author and time -->
+                                    <img src="img/om.jpeg" class="w-7 h-7 rounded-full align-middle object-fill"
+                                        alt="profile">
+                                    <h3 class="text-sm">Om Nikam </h3>
+                                    <p class="text-sm text-gray-400"> 21 hours ago</p>
+                                    <!-- End of Author and time -->
+                                </div>
+                                <div class="flex w-full mb-4">
+                                    <div class="flex flex-col gap-2">
+                                        <h3 class="text-md font-semibold text-left">Lorem ipsum dolor sit amet
+                                            consectetur,
+                                            adipisicing elit. Eaque, consectetur?</h3>
+                                        <div class="flex gap-4 items-center">
+                                            <h5 class="rounded-lg px-2 py-1 bg-gray-200 text-xs">web dev</h5>
+                                            <h5 class="text-gray-400 text-sm">3 min read</h5>
+                                        </div>
+                                    </div>
+                                    <div class="h-14 w-24 overflow-hidden">
+                                        <img src="img/blogging2.webp" class="w-full h-full object-cover" alt="profile">
+                                    </div>
+                                </div>
                             </div>
+
+                            <!--End of Single Blog div -->
+
                         </div>
+                        <!-- End of Related post -->
+
                     </div>
+                    <!--End of Related articles  -->
 
-                    <!--End of Single Blog div -->
-
-                </div>
-                <!-- End of Related post -->
-
-            </div>
-            <!--End of Related articles  -->
-
-            <!-- Comments form div  -->
-            <div class="w-full md:w-2/3 md:px-4">
-                <div class="bg-white rounded-lg md:p-8 ">
-                    <h3 class="text-xl text-postBg font-bold mb-6">Leave a reply</h3>
-                    <form>
-                        <div class="md:flex items-center w-full gap-2">
-                            <div class="mb-6 md:w-1/2 ">
-                                <input type="text" placeholder="Your Name" class="
+                    <!-- Comments form div  -->
+                    <div class="w-full md:w-4/5 md:px-4">
+                        <div class="bg-white rounded-lg md:p-8 ">
+                            <h3 class="text-xl text-postBg font-bold mb-6">Leave a reply</h3>
+                            <form>
+                                <div class="md:flex items-center w-full gap-2">
+                                    <div class="mb-6 md:w-1/2 ">
+                                        <input type="text" placeholder="Your Name" class="
                                 w-full
                                 rounded
                                 py-3
@@ -265,9 +280,9 @@
                                 focus-visible:shadow-none
                                 focus:border-primary
                                 " />
-                            </div>
-                            <div class="mb-6 md:w-1/2">
-                                <input type="email" placeholder="Your Email" class="
+                                    </div>
+                                    <div class="mb-6 md:w-1/2">
+                                        <input type="email" placeholder="Your Email" class="
                                 w-full
                                 rounded
                                 py-3
@@ -278,11 +293,11 @@
                                 focus-visible:shadow-none
                                 focus:border-primary
                                 " />
-                            </div>
-                        </div>
-                        
-                        <div class="mb-6">
-                            <textarea rows="6" placeholder="Your Message" class="
+                                    </div>
+                                </div>
+
+                                <div class="mb-6">
+                                    <textarea rows="6" placeholder="Your Message" class="
                             w-full
                             rounded
                             py-3
@@ -294,13 +309,15 @@
                             focus-visible:shadow-none
                             focus:border-primary
                             "></textarea>
-                        </div>
-                        <div class="flex items-center gap-2 mb-4">
-                            <input id="link-checkbox" type="checkbox" class="w-4 h-4 text-blue-600 rounded border-gray-300 ">
-                            <label for="link-checkbox" class="ml-2 text-sm font-medium text-gray-900 ">Save my e-mail and name for next time I comment</label>
-                        </div>
-                        <div>
-                            <button type="submit" class="
+                                </div>
+                                <div class="flex items-center gap-2 mb-4">
+                                    <input id="link-checkbox" type="checkbox"
+                                        class="w-4 h-4 text-blue-600 rounded border-gray-300 ">
+                                    <label for="link-checkbox" class="ml-2 text-sm font-medium text-gray-900 ">Save my
+                                        e-mail and name for next time I comment</label>
+                                </div>
+                                <div>
+                                    <button type="submit" class="
                             w-full
                             text-white
                             bg-brightPurple
@@ -310,74 +327,117 @@
                             transition
                             hover:bg-opacity-90
                             ">
-                                Post Comment
+                                        Post Comment
+                                    </button>
+                                </div>
+                            </form>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Comment form div  -->
+
+                    <!-- Comments -->
+                    <div class="w-full md:w-4/5 md:px-4 m-4 ">
+
+                        <div class="flex items-center justify-between shadow-sm m-4">
+                            <h3 class="text-lg font-semibold">Comments(5)</h3>
+                            <button
+                                class="px-3 py-2 bg-brightPurple text-white btn md:relative md:inline-flex md:items-center md:justify-start md:overflow-hidden md:transition-all md:bg-white rounded md:hover:bg-white group">
+                                <span
+                                    class="md:w-0 md:h-0 md:rounded md:bg-brightPurple md:absolute md:top-0 md:left-0 md:ease-out md:duration-500 md:transition-all md:group-hover:w-full md:group-hover:h-full md:-z-1"></span>
+                                <span
+                                    class=" md:w-full md:text-black md:transition-colors md:duration-300 md:ease-in-out md:group-hover:text-white md:z-10">
+                                    +Write a comment
+                                </span>
                             </button>
                         </div>
-                    </form>
-                    <div>
+
+                        <!-- Single Comment -->
+                        <div class="flex items-start justify-start gap-4 m-4 w-full pb-4 border-b-2 border-gray-200">
+                            <div class="w-28 md:w-20 overflow-hidden ">
+                                <img src="/img/profile.jpg" class="w-8 h-8 rounded-full" alt="profile">
+                            </div>
+                            <div class>
+                                <h3 class="text-md font-semibold">omnikam0404</h3>
+                                <h6 class="text-sm text-gray-500 ">on 21 jun 2022</h6>
+                                <p class="pt-2 text-gray-700 text-justify md:pr-4 pr-6">Actual comment . Lorem, ipsum
+                                    dolor sit amet consectetur adipisicing elit. Laborum blanditiis repellat dolor,
+                                    nihil tenetur eligendi molestiae ad voluptates voluptas mollitia quibusdam ut
+                                    tempore iure. </p>
+                            </div>
+                        </div>
+                        <!-- End of Single Comment -->
+                        <!-- Single Comment -->
+                        <div class="flex items-start justify-start gap-4 m-4 w-full pb-4 border-b-2 border-gray-200">
+                            <div class="w-28 md:w-20 overflow-hidden ">
+                                <img src="/img/om.jpeg" class="w-8 h-8 rounded-full" alt="profile">
+                            </div>
+                            <div class>
+                                <h3 class="text-md font-semibold">KrushnaBaviskar</h3>
+                                <h6 class="text-sm text-gray-500 ">on 21 jun 2022</h6>
+                                <p class="pt-2 text-gray-700 text-justify md:pr-4 pr-6">Actual comment . Lorem, ipsum
+                                    dolor sit amet consectetur adipisicing elit. Laborum blanditiis repellat dolor,
+                                    nihil tenetur eligendi molestiae ad voluptates voluptas mollitia quibusdam ut
+                                    tempore iure. </p>
+                            </div>
+                        </div>
+                        <!-- End of Single Comment -->
+                        <!-- Single Comment -->
+                        <div class="flex items-start justify-start gap-4 m-4 w-full pb-4 border-b-2 border-gray-200">
+                            <div class="w-28 md:w-20 overflow-hidden ">
+                                <img src="/img/profile.jpg" class="w-8 h-8 rounded-full" alt="profile">
+                            </div>
+                            <div class>
+                                <h3 class="text-md font-semibold">omnikam0404</h3>
+                                <h6 class="text-sm text-gray-500 ">on 21 jun 2022</h6>
+                                <p class="pt-2 text-gray-700 text-justify md:pr-4 pr-6">Actual comment . Lorem, ipsum
+                                    dolor sit amet consectetur adipisicing elit. Laborum blanditiis repellat dolor,
+                                    nihil tenetur eligendi molestiae ad voluptates voluptas mollitia quibusdam ut
+                                    tempore iure. </p>
+                            </div>
+                        </div>
+                        <!-- End of Single Comment -->
+                    </div>
+                    <!-- End of Comments -->
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="h-fit sm:col-span-full md:col-span-1 sticky align-middle md:top-2">
+                <div class="grid grid-cols-4 sticky gap-6 items-center md:w-2/3 md:mx-auto md:my-16">
+                    <h3 class="col-span-4 text-center text-xl">Article Reaction</h3>
+                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                        <p class="">👍</p>
+                        <h3 class="text-2xl font-semibold text-reactionText">2</h3>
+                        <h6 class="text-sm text-reactionText">Like</h6>
+                    </div>
+                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                        <p class="">❤️</p>
+                        <h3 class="text-2xl font-semibold text-reactionText">2</h3>
+                        <h6 class="text-sm text-reactionText">Love</h6>
+                    </div>
+                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                        <p class="">🎉</p>
+                        <h3 class="text-2xl font-semibold text-reactionText">2</h3>
+                        <h6 class="text-sm text-reactionText">Party</h6>
+                    </div>
+                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                        <p class="">👏</p>
+                        <h3 class="text-2xl font-semibold text-reactionText">2</h3>
+                        <h6 class="text-sm text-reactionText">Clap</h6>
                     </div>
                 </div>
             </div>
-            <!-- End of Comment form div  -->
-
-            <!-- Comments -->
-            <div class="w-full md:w-2/3 md:px-4 m-4 ">
-
-                <div class="flex items-center justify-between shadow-sm m-4">
-                    <h3 class="text-lg font-semibold">Comments(5)</h3>
-                    <button class="px-3 py-2 bg-brightPurple text-white btn md:relative md:inline-flex md:items-center md:justify-start md:overflow-hidden md:transition-all md:bg-white rounded md:hover:bg-white group">
-                        <span class="md:w-0 md:h-0 md:rounded md:bg-brightPurple md:absolute md:top-0 md:left-0 md:ease-out md:duration-500 md:transition-all md:group-hover:w-full md:group-hover:h-full md:-z-1"></span>
-                        <span class=" md:w-full md:text-black md:transition-colors md:duration-300 md:ease-in-out md:group-hover:text-white md:z-10">
-                          +Write a comment
-                        </span>
-                      </button>
-                </div>
-
-                <!-- Single Comment -->
-                <div class="flex items-start justify-start gap-4 m-4 w-full pb-4 border-b-2 border-gray-200">
-                    <div class="w-28 md:w-20 overflow-hidden ">
-                        <img src="/img/profile.jpg" class="w-8 h-8 rounded-full" alt="profile">
-                    </div>
-                    <div class>
-                        <h3 class="text-md font-semibold">omnikam0404</h3>
-                        <h6 class="text-sm text-gray-500 ">on 21 jun 2022</h6>
-                        <p class="pt-2 text-gray-700 text-justify md:pr-4 pr-6">Actual comment . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis repellat dolor, nihil tenetur eligendi molestiae ad voluptates voluptas mollitia quibusdam ut tempore iure. </p>
-                    </div>
-                </div>
-                <!-- End of Single Comment -->
-                <!-- Single Comment -->
-                <div class="flex items-start justify-start gap-4 m-4 w-full pb-4 border-b-2 border-gray-200">
-                    <div class="w-28 md:w-20 overflow-hidden ">
-                        <img src="/img/om.jpeg" class="w-8 h-8 rounded-full" alt="profile">
-                    </div>
-                    <div class>
-                        <h3 class="text-md font-semibold">KrushnaBaviskar</h3>
-                        <h6 class="text-sm text-gray-500 ">on 21 jun 2022</h6>
-                        <p class="pt-2 text-gray-700 text-justify md:pr-4 pr-6">Actual comment . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis repellat dolor, nihil tenetur eligendi molestiae ad voluptates voluptas mollitia quibusdam ut tempore iure. </p>
-                    </div>
-                </div>
-                <!-- End of Single Comment -->
-                <!-- Single Comment -->
-                <div class="flex items-start justify-start gap-4 m-4 w-full pb-4 border-b-2 border-gray-200">
-                    <div class="w-28 md:w-20 overflow-hidden ">
-                        <img src="/img/profile.jpg" class="w-8 h-8 rounded-full" alt="profile">
-                    </div>
-                    <div class>
-                        <h3 class="text-md font-semibold">omnikam0404</h3>
-                        <h6 class="text-sm text-gray-500 ">on 21 jun 2022</h6>
-                        <p class="pt-2 text-gray-700 text-justify md:pr-4 pr-6">Actual comment . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis repellat dolor, nihil tenetur eligendi molestiae ad voluptates voluptas mollitia quibusdam ut tempore iure. </p>
-                    </div>
-                </div>
-                <!-- End of Single Comment -->
-            </div>
-            <!-- End of Comments -->
-
-
-
-
         </div>
+        <!-- End of post div -->
 
-        
+
+
         <footer class="text-center">
             <div class="px-6 pt-6">
                 <form action="">
