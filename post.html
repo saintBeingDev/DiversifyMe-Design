@@ -152,17 +152,21 @@
                         <img src="img/bloging3.jpg" class="w-full h-full  object-cover" alt="">
                     </div>
 
-                    <div class="w-full md:w-11/12 m-2 md:m-5">
+                    <div class="w-full md:w-11/12 my-2 md:m-5">
                         <!-- author div -->
-                        <div class="md:hidden flex items-center justify-start gap-2 ml-4 my-2">
+                        <div class="md:hidden w-full grid grid-cols-7 gap-4 mb-4 align-middle justify-center">
                             <!-- Author and time -->
-                            <img src="img/profile.jpg" class="w-10 h-10 rounded-full align-middle object-cover"
-                                alt="profile">
-                            <div class="flex gap-2 items-center justify-center">
-                                <h3 class="md:text-sm font-bold text-md">Om Nikam </h3>
+                            <div class="col-span-1 rounded-full w-10 h-10 overflow-hidden">
+                                <img src="img/profile.jpg" class="w-full h-full"
+                                    alt="profile">
+                            </div>
+                            <div class="w-full col-span-4">
+                                <h3 class="md:text-sm font-bold text-md">Om nikam </h3>
                                 <p class="text-sm text-gray-400"> 21 hours ago</p>
                             </div>
-                            <p class="content-end ml-20 text-gray-600 text-sm">3 min read</p>
+                            <div class="w-24 borer-2 border-blue-500 col-span-2">
+                                <p class=" text-gray-600 text-sm">3 min read</p>
+                            </div>
                             <!-- End of Author and time -->
                         </div>
                         <!-- End of author div -->
@@ -195,7 +199,7 @@
                     </div>
 
                     <!-- Related articles  -->
-                    <div class="w-full mb-14 md:m-20">
+                    <div class="w-full my-14 md:m-20">
                         <h3 class="text-center text-2xl font-extrabold text-postBg">Related articles👇</h3>
 
                         <!-- Related post -->
@@ -408,31 +412,34 @@
 
             </div>
 
-            <div class="h-fit sm:col-span-full md:col-span-1 sticky align-middle md:top-2">
-                <div class="grid grid-cols-4 sticky gap-6 items-center md:w-2/3 md:mx-auto md:my-16">
+            <!-- Article reaction div -->
+            <div class="col-span-4 md:col-span-1 md:sticky self-start md:top-2">
+                <div class="grid grid-cols-4 w-full sticky gap-6 items-center md:w-2/3 md:mx-auto md:my-16">
                     <h3 class="col-span-4 text-center text-xl">Article Reaction</h3>
-                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                    <div class="md:col-span-2 sm:col-span-1 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
                         <p class="">👍</p>
                         <h3 class="text-2xl font-semibold text-reactionText">2</h3>
                         <h6 class="text-sm text-reactionText">Like</h6>
                     </div>
-                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                    <div class="md:col-span-2 sm:col-span-1 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
                         <p class="">❤️</p>
                         <h3 class="text-2xl font-semibold text-reactionText">2</h3>
                         <h6 class="text-sm text-reactionText">Love</h6>
                     </div>
-                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
-                        <p class="">🎉</p>
+                    <div class="md:col-span-2 sm:col-span-1 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                        <p class="text-center mx-auto">🎉</p>
                         <h3 class="text-2xl font-semibold text-reactionText">2</h3>
                         <h6 class="text-sm text-reactionText">Party</h6>
                     </div>
-                    <div class="md:col-span-2 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
+                    <div class="md:col-span-2 sm:col-span-1 bg-reactionIconBg w-full h-full text-4xl flex flex-col justify-center items-center md:py-4 rounded-md hover:cursor-pointer hover:ring-2 hover:ring-offset-2 hover:ring-slate-800 transition-all ease-in">
                         <p class="">👏</p>
                         <h3 class="text-2xl font-semibold text-reactionText">2</h3>
                         <h6 class="text-sm text-reactionText">Clap</h6>
                     </div>
                 </div>
             </div>
+            <!-- End of Article reaction div -->
+
         </div>
         <!-- End of post div -->
 
